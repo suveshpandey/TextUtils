@@ -1,0 +1,10 @@
+.sp{
+    font-size: 3em; /* Adjust font size as needed */
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, blue, red);
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* Webkit-specific property */
+    color: transparent; /* Standard property */
+    -webkit-text-fill-color: transparent; /* Webkit-specific property */
+}

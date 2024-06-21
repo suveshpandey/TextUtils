@@ -1,0 +1,66 @@
+.heading{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 550;
+    font-family:serif;
+}
+
+.heading{
+    background: linear-gradient(to bottom, blue, rgb(231, 67, 7));
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* Webkit-specific property */
+    color: transparent; /* Standard property */
+    -webkit-text-fill-color: transparent; /* Webkit-specific property */
+}
+.con2{
+    padding: 10px;
+    margin-top: 50px;
+}
+.con2 h1{
+    font-size:23px;
+    background: linear-gradient(to bottom, blue, rgb(231, 67, 7));
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* Webkit-specific property */
+    color: transparent; /* Standard property */
+    -webkit-text-fill-color: transparent; /* Webkit-specific property */
+}
+.con2 p{
+    background-color: rgb(234, 228, 228, .4);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 3px;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: rgb(126, 121, 115);
+
+}
+
+.con2 p span{
+    background-color:bisque;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    font-weight: 400;
+}
+
+.pContainer{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.timeInfo p{
+    text-align: center;
+}
+
+.btns{
+    width: 200px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.btnContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
